@@ -1,0 +1,36 @@
+/* Cartões de Convênios */
+.Beneficios h3 {
+    text-align: center;
+}
+
+.Beneficios p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.Beneficios .card-item{
+    background-color: #d3e6fd;
+    margin: 15px;
+    border-radius: 100px;
+    text-align: center;
+    width: 350px;
+}
+
+.Beneficios .card-item img{
+    border-radius: 100%;
+    width: 80px;
+    display: block;
+    margin: 10px auto;
+}
+
+.Beneficios .card-item .nome-convenio{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+/* Fim Cartões de Convênios */
