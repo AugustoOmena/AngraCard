@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
-
+/*
 body {
     background: linear-gradient(to top, #3990b5, hsl(164, 77%, 71%));
 
-} 
+} */
 
 .slider {
     margin-left: auto;
@@ -52,7 +52,7 @@ body {
     height: 100%;
     border-radius: 100px;
     object-fit: cover;
-    transition: 2s;
+    transition: 3s;
 }
 
 .slider span:hover img {

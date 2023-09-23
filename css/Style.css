@@ -2,11 +2,14 @@
 
 /* Cartões de Convênios, referência: https://youtu.be/nZIkHzIRrkg?si=jgWBZxxFK1XWyO1n */
 
-/*header{
-    background-position: center;   caso use imagem
+
+header{
+    background-position: center;  
     background-size: cover; 
-    background-attachment: space-around; 
-}*/
+    background-attachment: fixed; 
+    height: 600px;
+}
+
 
 *{
     margin: 0;
@@ -29,7 +32,7 @@ nav ul {
 
 nav ul a{
     color: rgb(13, 34, 173);
-    margin: 0 25px;
+    margin: 0 30px;
     text-transform: 14px;
     display:block;
 }
