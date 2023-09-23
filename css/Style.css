@@ -1,4 +1,39 @@
-/* Cartões de Convênios */
+
+
+/* Cartões de Convênios, referência: https://youtu.be/nZIkHzIRrkg?si=jgWBZxxFK1XWyO1n */
+
+/*header{
+    background-position: center;   caso use imagem
+    background-size: cover; 
+    background-attachment: space-around; 
+}*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul a{
+    color: rgb(13, 34, 173);
+    margin: 0 25px;
+    text-transform: 14px;
+    display:block;
+}
+
 .Beneficios h3 {
     text-align: center;
 }
@@ -33,4 +68,4 @@
     font-size: 20px;
     margin-bottom: 15px;
 }
-/* Fim Cartões de Convênios */
+/* Fim Cartões de Convênios  */

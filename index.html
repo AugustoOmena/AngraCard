@@ -3,23 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\RotationImage.css">
     <link rel="stylesheet" href="css\Style.css">
     <script src="http://unpkg.com/scrollreveal"></script>
     <title>Angra Card</title>
 </head>
 <body>
-    <!-- header -->
+    <!----------------- header ----------------- header ----------------- header ----------------->
     <header>
-        <!-- container -->
+        <!-- container https://youtu.be/LqqxZOec6HE?si=ZLwmSqSiAvWskdld -->
         <div class="container">
             <nav>
-                <a href="index.html"></a>
-                    <img src="img\PCard.png" alt="">
+                <a href="index.html">
+                    <img src="img\PCard.png" alt="Logo">
+                </a>
+                    <ul class="ul">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">Sobre</a>
+                        <a href="services.html">Servoços</a>
+                        <a href="contact.html">Contato</a>
+                    </ul>
             </nav>
         </div>
         <!-- end container -->
     </header>
-    <!-- end header -->
+    <!----------------- end header ----------------- end header ----------------- end header ----------------->
+
+    
+        <!----------------------------------- Rotating Image ------------------------------------->
+    <section>
+        <div class="slider">
+            <span style="--i:1;"><img src="img\media-1.jpg" alt=""></span>
+            <span style="--i:2;"><img src="img\media-2.jpg" alt=""></span>
+            <span style="--i:3;"><img src="img\media-3.jpg" alt=""></span>
+            <span style="--i:4;"><img src="img\media-4.jpg" alt=""></span>
+            <span style="--i:5;"><img src="img\media-1.jpg" alt=""></span>
+            <span style="--i:6;"><img src="img\media-2.jpg" alt=""></span>
+            <span style="--i:7;"><img src="img\media-3.jpg" alt=""></span>
+            <span style="--i:8;"><img src="img\media-4.jpg" alt=""></span>
+        </div>
+    </section>
+        <!--------------------------------- end Rotating Image ------------------------------------->
+
 
     <!----------------------------------- cards ------------------------------------->
     <section class="Beneficios">
@@ -196,6 +221,7 @@
         </div>
     </section>
     <!------------------------------------- end cards ------------------------------------>
+
 
     <script src="Js\index.js"></script>
 </body>
