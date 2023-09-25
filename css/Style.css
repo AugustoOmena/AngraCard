@@ -10,6 +10,16 @@ header{
     height: 600px;
 }
 
+.imagem-centralizada {
+    display: block; /* Isso faz com que a imagem seja exibida como um bloco para usar margin:auto */
+    margin: 0 auto; /* Isso centraliza a imagem horizontalmente */
+    max-width: 100%; /* Isso garante que a imagem não exceda a largura do seu contêiner pai */
+  }
+
+  .titulo-centralizado {
+    text-align: center; /* Alinha o texto à direita da imagem */
+    margin-top: 0; /* Remove a margem superior padrão do título */
+  }
 
 *{
     margin: 0;
@@ -23,6 +33,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding-top: 30px;
+    padding-left: 27px;
 }
 
 nav ul {
@@ -31,7 +42,7 @@ nav ul {
 }
 
 nav ul a{
-    color: rgb(13, 34, 173);
+    color: rgb(73, 151, 91);
     margin: 0 30px;
     text-transform: 14px;
     display:block;
