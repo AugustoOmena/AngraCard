@@ -4,25 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css\RotationImage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css\Style.css">
     <script src="http://unpkg.com/scrollreveal"></script>
     <title>Angra Card</title>
 </head>
 <body>
     <!----------------- header ----------------- header ----------------- header ----------------->
-    <header style="background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.964), rgb(0, 0, 0, 0)), url('img/media-2.jpg')">
+    <header class="header-com-transicao" style="background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.964), rgb(0, 0, 0, 0)), url('img/media-2.jpg')">
         <!-- container https://youtu.be/LqqxZOec6HE?si=ZLwmSqSiAvWskdld -->
         <div class="container">
             <nav>
                 <a href="index.html">
                     <img src="img\Logo-prefeitura-footer.png" alt="Logo">
                 </a>
+                <nav class="menu">
+                    <button class="hamburguer">☰</button>
                     <ul class="ul">
-                        <a href="index.html">Home</a>
-                        <a href="about.html">Sobre</a>
-                        <a href="services.html">Servoços</a>
-                        <a href="contact.html">Contato</a>
+                        <a class="menu-header" href="index.html">Home</a>
+                        <a class="menu-header" href="about.html">Sobre</a>
+                        <a class="menu-header" href="services.html">Servoços</a>
+                        <a class="menu-header" href="contact.html">Contato</a>
                     </ul>
+                </nav>
             </nav>
             <img src="img\brasao.png" alt="Brasao" class="imagem-centralizada" />
             <h1 class="titulo-centralizado">DESCONTOS INCRÍVEIS PARA OS MORADORES DE ANGRA DOS REIS</h1>
@@ -225,8 +229,7 @@
     </section>
     <!--------------------------------- end Rotating Image ------------------------------------->
 
-
+    
     <script src="Js/index.js"></script>
-    <script src="Js/transicao.js"></script>
 </body>
 </html>

@@ -1,13 +1,65 @@
 
 
-/* Cartões de Convênios, referência: https://youtu.be/nZIkHzIRrkg?si=jgWBZxxFK1XWyO1n */
+/* Estilos para o menu regular */
+.menu {
+    display: block;
+  }
+  
+  /* Estilos para o menu hamburguer */
+  .hamburguer {
+    display: none;
+    padding-right: 30px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Ocultar o menu regular quando a tela for pequena */
+    .ul {
+      display: none;
+    }
+  
+    /* Exibir o botão hamburguer quando a tela for pequena */
+    .hamburguer {
+      display: block;
+      font-size: 24px;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+  
+    /* Estilizar o menu hamburguer */
+    .menu.active .ul {
+      display: block;
+    }
+  }
 
+
+/* Cartões de Convênios, referência: https://youtu.be/nZIkHzIRrkg?si=jgWBZxxFK1XWyO1n + chat GPT */
+
+.header-com-transicao {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    transition: background-image 1s ease; /* Transição suave de 1 segundo para a imagem de fundo */
+}
 
 header{
     background-position: center;  
     background-size: cover; 
     background-attachment: fixed; 
     height: 600px;
+}
+
+.menu-header {
+    font-family: 'Montserrat', sans-serif; /* Aplicar a fonte Montserrat aos botões */
+    /* Outros estilos de botão aqui */
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+/* Efeito de hover para os botões */
+.menu-header:hover {
+    color: #0056b3; /* Nova cor do texto ao passar o mouse */
 }
 
 .imagem-centralizada {
@@ -32,7 +84,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 27px;
 }
 
