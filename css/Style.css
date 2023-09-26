@@ -4,11 +4,16 @@
 .menu {
     display: block;
   }
+
+  .logo{
+    max-height: 90px;
+  }
   
   /* Estilos para o menu hamburguer */
   .hamburguer {
     display: none;
     padding-right: 30px;
+    font-size: 80px;
   }
   
   @media screen and (max-width: 768px) {
@@ -73,6 +78,44 @@ header{
     margin-top: 0; /* Remove a margem superior padrão do título */
   }
 
+
+  
+
+  .button-container {
+    background-color: #1a8055;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    flex-wrap: wrap; /* Permite que os botões quebrem para uma nova linha */
+  }
+  
+
+  .button {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    max-height: 90px;
+    margin: 10px; /* Espaçamento entre os botões */
+    flex-basis: calc(50% - 20px); /* Define a largura dos botões para 50% com espaço entre eles */
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+      flex-basis: 100%; /* Em telas pequenas, um botão por linha */
+  }
+}
+
+/* Estilos para telas maiores (aqui, suponhamos que 1024px seja o ponto de corte) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .button {
+      flex-basis: calc(50% - 20px); /* Em telas maiores, dois botões em uma linha */
+  }
+}
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -115,7 +158,7 @@ nav ul a{
 }
 
 .Beneficios .card-item{
-    background-color: #d3e6fd;
+    background-color: #82bbe3;
     margin: 15px;
     border-radius: 100px;
     text-align: center;
